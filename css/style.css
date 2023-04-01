@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: max-content;
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/973/762/525/anime-anime-girls-women-fantasy-girl-weapon-hd-wallpaper-c8469d88a0a08c38e0dc41ee2832145a.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.container {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    width: 26%;
+    height: 50rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px #606060;
+    background: rgba(122, 122, 122, 0.216) ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.nav {
+    width: 80%;
+    height: 10rem;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 3rem;
+    box-shadow: 1px 1px 10px #272727;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav p {
+    color: #fffefe;
+    font-family: 'Alkatra', cursive;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+}
+.header-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 2rem;
+}
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border: 2px solid rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+.username {
+    font-size: 21px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 'Alkatra', cursive;
+}
+.content-card {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    row-gap: 6px;
+    width: 100%;
+    margin-top: 2rem;
+}
+.content-card a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    width: 40%;
+    padding: 14px;
+    border-radius: 20px;
+    text-align: center;
+    background: #ffffff;
+}
+.content-card a:hover {
+    background: #ded8d8;
+}
+@media (min-width:320px) {
+    .card {
+        width: 90%;
+    }
+}
+@media (min-width:480px) {
+    .card {
+        width: 80%;
+    }
+}
+@media (min-width:610) {
+    .card {
+        width: 58%;
+    }
+}
+@media (min-width:768px) {
+    .card {
+        width: 46%;
+    }
+}
+@media (min-width:1024px) {
+    .card {
+        width: 36%;
+    }
+}
+@media (min-width:1281px) {
+    .card {
+        width: 26%;
+    }
+}
